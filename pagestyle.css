@@ -1,0 +1,273 @@
+/*page arrangement*/
+/* Tablet Landscape */
+@media screen and (max-width: 1060px)
+{
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px)
+{
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+
+/*head image*/
+.headimg
+{
+	height:60px;
+	width:270px;
+	border:10px;
+	cursor:hand;
+}
+.hr
+{
+	color:#282829;
+	width:100%;
+}
+.hr2
+{
+	color:#282829;
+	width:100%;
+}
+
+body
+{
+	font-size:16px;
+	font-family:arial, helvetica, sans-serif;
+	background-color:#F0F0F0;
+	color:white;
+	margin-top:15px;
+	margin-left:1px;
+	margin-right:1px;
+	cursor:hand;
+}
+
+.headimagediv
+{
+	width:100%;
+	height:60px;
+	background-color:#231355;
+	margin-top:-13px;
+	margin-bottom:-3px;
+}
+
+.menu
+{
+	font-size:20px;
+	font-family:palatino, serif, arial;
+	color:black;
+	background-color:lightyellow;
+	width:100%;
+	margin-top:-5px;
+	margin-bottom:-5px;
+}
+.menu .amenu
+{
+	text-decoration:none;
+	color:black;
+	cursor:hand;
+}
+.amenuicon
+{
+	height:17px;
+	width:19px;
+}
+
+/*page div*/
+.homepagediv1
+{
+	background-color:lightyellow;
+	color:black;
+	width:500px;
+	height:280px;
+	padding:10px;
+	font-size:19px;
+	font-weight:bold;
+	font-family:palatino, charcoal;
+	font-weight:;
+	border:3px dashed black;
+	cursor:text;
+}
+
+.regsucpagediv
+{
+	background-color:lightyellow;
+	color:black;
+	width:500px;
+	height:180px;
+	padding-left:;
+	padding-right:;
+	font-size:20px;
+	font-family:Palatino;
+	font-weight:light;
+	border:2px dashed black;
+}
+
+/*reg form*/
+.regpagediv
+{
+	background-color:lightyellow;
+	color:black;
+	padding-left:2%;
+	padding-right:2%;
+	width:500px;
+	height:125px;
+	font-family:palatino, charcoal;
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	border:3px dashed black;
+	cursor:text;
+}
+.regpagediv .span1
+{
+	color:darkblue;
+	font-family:palatino, charcoal;
+}
+.regpagediv .span2
+{
+	color:darkyellow;
+	font-family:palatino, charcoal;
+}
+.regpagediv .span3
+{
+	color:darkgreen;
+	font-family:palatino, charcoal;
+}
+.regpagediv .span4
+{
+	color:red;
+	font-family:palatino, charcoal;
+}
+
+
+.regdiv
+{
+	background-color:lightyellow;
+	color:black;
+	padding:20px;
+	padding-left:180px;
+	width:480px;
+	height:800px;
+	font-family:palatino, charcoal;
+	font-size:17px;
+	font-weight:bold;
+	display:table;
+	text-align:;
+	border-radius:25px;
+	
+}
+.comment
+{
+	resize:none;
+}
+
+.member
+{
+	color:black;
+	font-size:16px;
+	font-family:inherit;
+	font-style:italic;
+}
+
+/*declearing all page general href anchor*/
+.a
+{
+	text-decoration:none;
+}
+
+/*declearing a specific href anchor*/
+.alogin
+{
+	text-decoration:none;
+	color:blue;
+	cursor:hand;
+}
+
+.footer
+{
+	background-color:#231355;
+	color:white;
+	padding-top:7px;
+	width:100%;
+	font-family: arial, gadget, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	margin-bottom:-20px;
+}
+
+.afooter
+{
+	text-decoration:none;
+	color:white;
+	font-family:arial, gadget, sans-serif;
+	cursor:hand;
+	font-size:15px;
+
+}
+
+.pageend
+{
+	background-color:black;
+	color:white;
+	font-weight:bold;
+	font-size:14px;
+	padding:;
+	width:100%;
+	height:30%;
+	font-family:arial, gadget, sans-serif;
+}
+
+/*login page*/
+.logindiv1
+{
+	background-color:lightyellow;
+	color:black;
+	font-family:Palatino, gadget, sans-rif;
+	font-size:20px;
+	height:;
+	padding-bottom:5px;
+	width:400px;
+	border:2px dashed black;
+	cursor:text;
+}
+.loginicon
+{
+	height:100px;
+	width:100px;
+}
+.logindiv2
+{
+	background-color:lightyellow;
+	color:black;
+	padding:;
+	height:400px;
+	width:520px;
+	font-family:Palatino, gadget;
+	font-size:20px;
+	font-weight:;
+	display:block;
+	border-radius:80px 10px 80px 10px;
+}
+.input
+{
+	background-color:lightgreen;
+	cursor:hand;
+	font-weight:bold;
+	border-radius:15px;
+	border-width:0px;
+	height:30px;
+	width:80px;
+}
+
+.fieldradius
+{
+	border: 2px solid black;
+	border-radius:15px;
+	background-color:;
+	height:25px;
+	width:200px;
+	padding-left:5px;
+}
